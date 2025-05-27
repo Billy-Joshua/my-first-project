@@ -1,0 +1,19 @@
+body {
+    background-color:rgb(238, 238, 238);
+}
+H1{
+    color:rgb(10, 10, 10);
+    font-family: verdana;
+    font-size: 200%;
+    margin: 60px;
+}
+P{
+    color: rgb(18, 17, 17);
+    font-family: 'Courier; 
+    font-size 100%; 
+    margin: 50px;;
+}
+h4 {
+    border: 2px solid powderblue;
+    padding:30px
+ }
