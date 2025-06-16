@@ -17,3 +17,25 @@ h4 {
     border: 2px solid powderblue;
     padding:30px
  }
+ a:link {
+    color:rgb(231, 8, 8);
+    background-color: transparent;
+    text-decoration: none ;
+ }
+a:visited {
+    color:pink;
+    padding: 15px 25px;
+    text-align: center;
+    background-color:red5;
+    text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
