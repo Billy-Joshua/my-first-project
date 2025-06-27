@@ -39,20 +39,22 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
-
 table {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-    td, th {
-        border: 5px solid #422020;
-        text-align: left;
-        padding: 8px;
-    }
+  border-collapse: collapse;
+  width: max-content;
 }
-tr,:nth-child(even) {
-    background-color: rgb(246, 244, 241);
+
+th, td {
+  border: 1px solid #999;
+  padding: 4px 8px;
+  font-size: 14px;
+  white-space: nowrap;
 }
+
+table-wrapper {
+  overflow-x: auto;
+}
+
 
 div {
    width:300px; 
@@ -77,4 +79,20 @@ div.mycontainer {
 div.mycontainer div {
   width:33%;  
   float:left;
+}
+h2 {
+color:rgb(10, 10, 10);
+    font-family: verdana;
+    font-size: 100%;
+    margin: 60px;
+}
+button {
+    margin: 30px;
+    background-color: crimson; 
+}
+#myheader {
+    background-color: lightblue;
+    color: black;
+    padding: 20px;
+    text-align:center;
 }
