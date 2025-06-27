@@ -53,3 +53,28 @@ table {
 tr,:nth-child(even) {
     background-color: rgb(246, 244, 241);
 }
+
+div {
+   width:300px; 
+   margin:auto;
+}
+dl {
+    width: 200px;
+    margin: auto;
+}
+table {
+    width: 300px;
+    margin: auto;
+}
+pre {
+    width: 600px;
+    margin: auto;
+}
+div.mycontainer {
+  width:100%;
+  overflow:auto;
+}
+div.mycontainer div {
+  width:33%;  
+  float:left;
+}
