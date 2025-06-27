@@ -88,11 +88,14 @@ color:rgb(10, 10, 10);
 }
 button {
     margin: 30px;
-    background-color: crimson; 
+    background-color: rgb(253, 253, 254); 
 }
 #myheader {
-    background-color: lightblue;
+    background-color: rgb(234, 238, 239);
     color: black;
     padding: 20px;
     text-align:center;
+}
+img {
+    margin: 60px;
 }

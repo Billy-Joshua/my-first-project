@@ -5,3 +5,15 @@ function myFunction() {
     x[i].style.display = "none";
   }
 }
+function showDate() {
+  document.getElementById("demo").innerHTML = new Date();
+}
+function light(sw) {
+  var pic;
+  if (sw === 0) {
+    pic = "image/pic_bulboff.gif";
+  } else {
+    pic = "image/pic_bulbon.gif"; 
+  }
+  document.getElementById("myImage").src = pic;
+}
