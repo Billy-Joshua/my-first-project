@@ -19,3 +19,9 @@ function light(sw) {
   }
   document.getElementById("myImage").src = pic;
 }
+
+  function myFunction() {
+    document.getElementById("demo").innerHTML = "Hello JavaScript!";
+  }
+  
+  

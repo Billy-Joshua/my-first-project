@@ -1,5 +1,5 @@
 body {
-    background-color:rgb(238, 238, 238);
+    background-color:rgb(130, 167, 177);
 }
 H1{
     color:rgb(10, 10, 10);
@@ -18,12 +18,12 @@ h4 {
     padding:30px
  }
  a:link {
-    color:rgb(231, 8, 8);
+    color:rgb(3, 32, 252);
     background-color: transparent;
     text-decoration: none ;
  }
 a:visited {
-    color:pink;
+    color:#0623f9;
     padding: 15px 25px;
     text-align: center;
     background-color:red5;
@@ -98,4 +98,48 @@ button {
 }
 img {
     margin: 60px;
+}
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+
+}
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; 
+  background: #ccc;
+  padding: 20px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; 
+}
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+@media  (max-width:600px) {
+nav, article{
+  width: 100%;
+  height: auto;
+}
 }
