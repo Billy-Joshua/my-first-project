@@ -143,3 +143,11 @@ nav, article{
   height: auto;
 }
 }
+aside {
+  width: 300px;
+   padding-left: 50px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
