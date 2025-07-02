@@ -14,9 +14,12 @@ function light(sw) {
   var pic;
   if (sw === 0) {
     pic = "image/pic_bulboff.gif";
-  } else {
+  } else if (sw===1) { 
     pic = "image/pic_bulbon.gif"; 
-  }
+  } else { 
+  pic ="image/pic-bulbcolar.gif"
+  } 
+
   document.getElementById("myImage").src = pic;
 }
 
