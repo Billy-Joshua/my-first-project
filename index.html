@@ -17,7 +17,9 @@
 
 <h2> BIGX</h2>
 
-<form action="/action-page.phd" target="_self" method="post">  
+<form action="/action-page.phd"  target="_self" method="post">  
+  <fieldset>
+    <legend> personal:</legend>
    <label for="fname"> first name: </label> 
    <br>
   <input type="text" id="fnamer" name="fname">
@@ -30,6 +32,7 @@
   <br>
   <input type="text" id="email" name="email"><br><br>
    <input type="submit" value="submit">
+   </fieldset>
 </form>
 
 <h2> cancer Types </h2>
@@ -62,6 +65,18 @@
   <label for="symptom5"> I have unusual bleeding or discharge</label><br><br>
 
   <input type="submit" value="Submit">
+   <br> 
+   <br>
+</form>
+<form action="/action_page.php">
+  <label for="cancer">Choose a cancer your facing :</label>
+  <select id="cancer" name="cancer" size="4" multiple>
+    <option value="colon cancer">colon cancer</option>
+    <option value="breast cancer">breast cancer</option>
+    <option value="lung cancer ">lung cancer</option>
+    <option value="skin cancer"> skin cancer</option>
+  </select>
+  <input type="submit">
 </form>
 
  <h2>PROJECT1 </h2>
@@ -246,6 +261,18 @@ THIS IS THE FUTURE I WANT TO BUILD  This project is more than a personal goal â€
 <a href="mailto:billyjoshuaishimwe@corenestconsulting.com"> send email</a>
 </address>
 </aside>
+ <h2> leave message here </h2>
+ <p> leave your message here  </p>
+ <form action="/action_page.php"> 
+  <textarea>
+
+  </textarea name="message" row="10" cols="30"> say samething .</textarea>
+  <br> <br> 
+  <input type="submit">
+
+  <h2> let fight for cancer </h2>
+  <p>this my message </p>
+<button type="button" onclick="alert('freecancer to generation!')">Click Me!</button>
 
 </body>
 </html>
