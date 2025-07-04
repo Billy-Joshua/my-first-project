@@ -1,6 +1,13 @@
 body {
-    background-color:rgb(130, 167, 177);
+  background-image: url("image/background2.jpg"); /* Sets the background image */
+  background-color: #82a7b1;          /* Fallback color if image doesn't load */
+  background-repeat: no-repeat;
+  background-position:top;
+  background-attachment:scroll; 
 }
+
+/* all this disgn from the online CSS and html */
+
 H1{
     color:rgb(10, 10, 10);
     font-family: verdana;
@@ -28,6 +35,8 @@ a:visited {
     text-align: center;
     background-color:red5;
     text-decoration: none;
+
+    /* this is code from w3 school i have to read it again */
 }
 a:hover {
   color: red;
@@ -150,7 +159,11 @@ aside {
   float: right;
   font-style: italic;
   background-color: lightgray;
+
 }
+/*  where the jurnal of CSS start and where html left me 
+ now im ready to  start CSS  cant wait to write this on javscript */
+
 p.center {
   text-align: center;
   color: rgb(80, 99, 4);
@@ -158,4 +171,11 @@ p.center {
 * {
   text-align: center;
   margin: auto;
+}
+p.dashed {border-style: dashed;} 
+/* this is  i was trying to design thr border*/
+
+div {
+  border: 1px solid gray;
+  padding: 8px;
 }
