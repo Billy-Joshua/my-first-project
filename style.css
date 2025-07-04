@@ -24,11 +24,14 @@ h4 {
     border: 2px solid powderblue;
     padding:30px
  }
- a:link {
+ a:link a:visited {
     color:rgb(3, 32, 252);
     background-color: transparent;
     text-decoration: none ;
+    display: inline-block;
+    padding: 14px 25px;
  }
+
 a:visited {
     color:#0623f9;
     padding: 15px 25px;
@@ -38,7 +41,7 @@ a:visited {
 
     /* this is code from w3 school i have to read it again */
 }
-a:hover {
+a:hover,a:active {
   color: red;
   background-color: transparent;
   text-decoration: underline;
@@ -117,7 +120,7 @@ header {
 
 }
 nav {
-  float: left;
+  float:left;
   width: 30%;
   height: 300px; 
   background: #ccc;
@@ -174,8 +177,43 @@ p.center {
 }
 p.dashed {border-style: dashed;} 
 /* this is  i was trying to design thr border*/
+tr:hover{background-color: coral;}
+/* when you click  on table you se change */
 
-div {
-  border: 1px solid gray;
-  padding: 8px;
+div.static {
+  position: static;
+  border: 2px solid #73AD21; 
 }
+div.fixed {
+    position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 10px;
+  border: 1px solid #73AD21;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: red;
