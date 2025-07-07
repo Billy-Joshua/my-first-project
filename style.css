@@ -45,6 +45,7 @@ a:hover,a:active {
   color: red;
   background-color: transparent;
   text-decoration: underline;
+
 }
 a:active {
   color: yellow;
@@ -171,9 +172,11 @@ p.center {
   text-align: center;
   color: rgb(80, 99, 4);
 }
+/* this can change everthing in CSS and desgin alot */
 * {
   text-align: center;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 p.dashed {border-style: dashed;} 
 /* this is  i was trying to design thr border*/
@@ -262,3 +265,9 @@ li a:hover {
 .menu li:hover {
   background-color: #0099cc;
 }
+ a.highlight:hover {
+  color:#ff0000;
+  font-size: 22px;
+ }
+ 
+ 
