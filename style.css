@@ -316,9 +316,10 @@ li.dropdown {
   display: block;
   text-align: left;
 }
+input[type=submit] {
+  background-color: #4CAF50;
+}
 
-.dropdown-content a:hover {background-color: #f1f1f1;}
-
-.dropdown:hover .dropdown-content {
-  display: block;
+input[type=submit]:hover {
+  background-color: #45a049;
 }
