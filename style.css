@@ -103,6 +103,10 @@ color:rgb(10, 10, 10);
 button {
     margin: 30px;
     background-color: rgb(253, 253, 254); 
+     color: black;
+  border: 2px solid #04AA6D; /* Green */
+  .button2 {border-radius: 4px;}
+  
 }
 #myheader {
     background-color: rgb(234, 238, 239);
@@ -382,31 +386,35 @@ div.container {
   text-align: center;
   padding: 10px 20px;
 }
-
-.overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #008CBA;
-  overflow: hidden;
-  width: 100%;
-  height: 0;
-  transition: .5s ease;
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.pagination {
+  display: inline-block;
 }
 
-.container:hover .overlay {
-  height: 100%;
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid #ddd;
 }
 
-.text {
-  white-space: nowrap; 
+.pagination a.active {
+  background-color: #4CAF50;
   color: white;
-  font-size: 20px;
-  position: absolute;
-  overflow: hidden;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+.pagination a:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.pagination a:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
