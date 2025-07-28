@@ -418,3 +418,17 @@ div.container {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  gap: 10px;
+  background-color: dodgerblue;
+  padding: 10px;
+}
+.grid-container > div8 {
+  background-color: #f1f1f1;
+  color: #000;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
