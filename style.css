@@ -11,7 +11,7 @@ h4 {
  }
 
 body {
-  background-image: url("image/background2.jpg"); /* Sets the background image */
+  background-image: url("image/background2.jpg"); /* Sets the background image */ 
   background-color: #82a7b1;          /* Fallback color if image doesn't load */
   background-repeat: no-repeat;
   background-position:top;
