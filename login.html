@@ -4,25 +4,142 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login - Francine for Hope</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+    /* ===========================
+       Login Page Styles
+       =========================== */
+    body {
+      background: linear-gradient(to right, #308398, #ba68c8);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      font-family: 'Arial', sans-serif;
+    }
+
+    .login-wrapper {
+      width: 100%;
+      max-width: 400px;
+      padding: 20px;
+    }
+
+    .login-container {
+      background-color: #fff;
+      padding: 2.5rem 2rem;
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+
+    .login-container h2 {
+      margin-bottom: 0.5rem;
+      color: #333;
+      font-size: 28px;
+    }
+
+    .login-container p {
+      margin-bottom: 1.5rem;
+      color: #666;
+      font-size: 14px;
+    }
+
+    .login-container label {
+      display: block;
+      text-align: left;
+      margin-bottom: 0.3rem;
+      color: #444;
+      font-weight: 600;
+    }
+
+    .login-container input {
+      width: 100%;
+      padding: 12px 10px;
+      margin-bottom: 1rem;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+
+    .login-container input:focus {
+      border-color: #ba68c8;
+      outline: none;
+      box-shadow: 0 0 8px rgba(186, 104, 200, 0.3);
+    }
+
+    .login-container button {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-radius: 10px;
+      background-color: #ba68c8;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .login-container button:hover {
+      background-color: #9c27b0;
+    }
+
+    .signup-text, .forgot-text {
+      margin-top: 0.8rem;
+      font-size: 13px;
+      color: #666;
+    }
+
+    .signup-text a, .forgot-text a {
+      color: #ba68c8;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .signup-text a:hover, .forgot-text a:hover {
+      text-decoration: underline;
+    }
+
+    /* Responsive */
+    @media (max-width: 480px) {
+      .login-container {
+        padding: 2rem 1.5rem;
+      }
+    }
+  </style>
 </head>
 <body>
-  <div class="login-container">
-    <h2>Login</h2>
-    <form action="dashboard.html" method="POST">
-        <br>
-      <label for="username">Username</label>
-      <br>
-      <input type="text" id="username" name="username" required>
-      <br>
-      <label for="password">Password</label>
-      <br>
-      <input type="password" id="password" name="password" required>
-      <br>
-      <button type="submit">Login</button>
-    </form>
+  <div class="login-wrapper">
+    <div class="login-container">
+      <h2>Login</h2>
+      <h4>Francine for Hope</h4>
+      <p>Welcome back! Please login to access the dashboard.</p>
+      <form>
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+        <button type="submit">Login</button>
+      </form>
+      <p class="signup-text">Don't have an account? <a href="#">Sign up</a></p>
+      <p class="forgot-text"><a href="#">Forgot password?</a></p>
+    </div>
   </div>
+
+  <script>
+    document.querySelector("form").addEventListener("submit", function(e) {
+      e.preventDefault();
+
+      const username = document.getElementById("username").value;
+      const password = document.getElementById("password").value;
+
+      if (username === "admin" && password === "1234") {
+        window.location.href = "dashboard.html";
+      } else {
+        alert("Invalid username or password!");
+      }
+    });
+  </script>
 </body>
 </html>
-<!-- Simple login form that redirects to dashboard.html on submit -->
- 
