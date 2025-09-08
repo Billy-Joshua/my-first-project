@@ -21,9 +21,9 @@ body {
 /* all this disgn from the online CSS and html */
 
 H1{
-    color:rgb(10, 10, 10);
+    color:rgb(16, 16, 16);
     font-family: verdana;
-    font-size: 200%;
+    font-size: 100%;
     margin: 60px;
 }
 P{
@@ -219,6 +219,7 @@ ul {
   background-color: #333;
   position: fixed;
   position: static;
+ 
 }
 
 li {
@@ -238,7 +239,7 @@ li a:hover {
 }
 
 .active {
-  background-color: red;
+  background-color: rgb(26, 20, 221);
 }
 /* copy from w3school to se how it work after when i need.
  it ill remember how it work and back here read it again */
@@ -310,7 +311,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: rgb(226, 244, 153);
 }
 
 li.dropdown {

@@ -1,0 +1,87 @@
+/* Reset some defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Background for login page */
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #f06292, #ba68c8);
+}
+
+/* Login container */
+.login-container {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+  width: 320px;
+  text-align: center;
+}
+
+/* Title */
+.login-container h2 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+/* Labels */
+.login-container label {
+  display: block;
+  text-align: left;
+  margin: 0.5rem 0 0.2rem;
+  font-weight: bold;
+  color: #444;
+}
+
+/* Input fields */
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: border 0.3s;
+}
+
+.login-container input:focus {
+  border-color: #ba68c8;
+  outline: none;
+}
+
+/* Button */
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background: #ba68c8;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-container button:hover {
+  background: #9c27b0;
+}
+
+/* Small link below form (optional) */
+.login-container p {
+  margin-top: 1rem;
+  font-size: 14px;
+}
+.login-container p a {
+  color: #ba68c8;
+  text-decoration: none;
+}
+.login-container p a:hover {
+  text-decoration: underline;
+}

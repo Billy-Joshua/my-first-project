@@ -1,11 +1,14 @@
 /* Dashboard Page Styling */
-
 /* Hero section for dashboard */
 .dashboard-hero {
   text-align: center;
   padding: 50px 20px;
   background-color: #e0f7fa; /* slightly different from main hero */
   border-bottom: 2px solid #007bff;
+}
+.dashboard-hero h1 {
+  font-size: 20px;
+
 }
 
 .dashboard-hero h2 {
