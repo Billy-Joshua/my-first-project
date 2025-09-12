@@ -17,5 +17,8 @@ function light(state) {
     image.src = 'image/pic_bulboff.gif';
   }
 }
+  // JavaScript code can be added here
+   window.alert("free cancer to generation by francine for hope of better tomorrow!");
+   document.getElementById("demo").innerHTML ="free cancer to generation by francine for hope of better tomorrow!";
 
-  
+   

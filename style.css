@@ -3,7 +3,7 @@ h4 {
     padding:30px
  }
  a:link a:visited {
-    color:rgb(3, 32, 252);
+    color:rgb(252, 3, 103);
     background-color: transparent;
     text-decoration: none ;
     display: inline-block;
@@ -54,7 +54,7 @@ a:visited {
     /* this is code from w3 school i have to read it again */
 }
 a:hover,a:active {
-  color: red;
+  color: rgb(17, 0, 255);
   background-color: transparent;
   text-decoration: underline;
 
@@ -219,7 +219,6 @@ ul {
   background-color: #333;
   position: fixed;
   position: static;
- 
 }
 
 li {
@@ -239,7 +238,7 @@ li a:hover {
 }
 
 .active {
-  background-color: rgb(26, 20, 221);
+  background-color: rgb(10, 4, 86);
 }
 /* copy from w3school to se how it work after when i need.
  it ill remember how it work and back here read it again */
@@ -311,7 +310,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: rgb(226, 244, 153);
+  background-color: red;
 }
 
 li.dropdown {
