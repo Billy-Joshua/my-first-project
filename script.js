@@ -20,5 +20,5 @@ function light(state) {
   // JavaScript code can be added here
    window.alert("free cancer to generation by francine for hope of better tomorrow!");
    document.getElementById("demo").innerHTML ="free cancer to generation by francine for hope of better tomorrow!";
-
-   
+    console.log("free cancer to generation by francine for hope of better tomorrow!");
+    document.write("free cancer to generation by francine for hope of better tomorrow!");
