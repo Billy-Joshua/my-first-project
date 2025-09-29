@@ -19,6 +19,16 @@
   font-size: 18px;
   max-width: 700px;
   margin: 10px auto;
+  color: #555;
+}
+
+.dashboard-hero a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.dashboard-hero a:hover {
+  text-decoration: underline;
 }
 
 /* Dashboard cards grid */
